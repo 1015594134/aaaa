@@ -1,6 +1,15 @@
 public class A {
     private int a;
-    private String b;
+    private String c;
+    private String d;
+
+    public String getD() {
+        return d;
+    }
+
+    public void setD(String d) {
+        this.d = d;
+    }
 
     public A() {
     }
@@ -13,12 +22,12 @@ public class A {
         this.a = a;
     }
 
-    public String getB() {
-        return b;
+    public String getC() {
+        return c;
     }
 
-    public void setB(String b) {
-        this.b = b;
+    public void setB(String c) {
+        this.c = c;
     }
 
 
