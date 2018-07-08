@@ -2,6 +2,7 @@ public class A {
     private int a;
     private String c;
     private String d;
+    private String f;
 
     public String getD() {
         return d;
